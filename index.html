@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de Admisión · IESTP Antenor Orrego Espinoza</title>
+  <meta name="description" content="Sistema de Admisión del IESTP Antenor Orrego Espinoza">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">&#9776;</button>
+    <img class="logo" src="assets/logo.png" alt="IESTP Antenor Orrego Espinoza - Chorrillos, Lima, Perú">
+    <div class="spacer"></div>
+    <div class="roles" id="rolePills" aria-label="Vista previa de perfil"></div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-title">MENÚ</p>
+      <nav id="nav"></nav>
+      <div class="spacer"></div>
+      <div class="roles-mobile" id="rolePillsM" aria-label="Vista previa de perfil"></div>
+      <div class="user">
+        <div class="avatar" id="avatar"></div>
+        <div>
+          <strong id="userName"></strong>
+          <small id="userRole"></small>
+        </div>
+      </div>
+      <p class="place">Chorrillos · Lima · Perú</p>
+    </aside>
+
+    <main class="content" id="content" tabindex="-1"></main>
+  </div>
+
+  <script src="js/datos.js"></script>
+  <script src="js/registro.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
